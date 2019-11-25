@@ -1,0 +1,60 @@
+[25-Nov-2019 06:33:29 UTC] PHP Notice:  Undefined variable: title_tag_start in /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/header.php on line 17
+[25-Nov-2019 06:33:29 UTC] PHP Stack trace:
+[25-Nov-2019 06:33:29 UTC] PHP   1. {main}() /workspace/wordpress/public_html/index.php:0
+[25-Nov-2019 06:33:29 UTC] PHP   2. require() /workspace/wordpress/public_html/index.php:17
+[25-Nov-2019 06:33:29 UTC] PHP   3. require_once() /workspace/wordpress/public_html/wp-blog-header.php:19
+[25-Nov-2019 06:33:29 UTC] PHP   4. include() /workspace/wordpress/public_html/wp-includes/template-loader.php:98
+[25-Nov-2019 06:33:29 UTC] PHP   5. get_header() /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/index.php:1
+[25-Nov-2019 06:33:29 UTC] PHP   6. locate_template() /workspace/wordpress/public_html/wp-includes/general-template.php:41
+[25-Nov-2019 06:33:29 UTC] PHP   7. load_template() /workspace/wordpress/public_html/wp-includes/template.php:671
+[25-Nov-2019 06:33:29 UTC] PHP   8. require_once() /workspace/wordpress/public_html/wp-includes/template.php:722
+[25-Nov-2019 06:33:29 UTC] PHP Notice:  Undefined variable: title_tag_end in /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/header.php on line 21
+[25-Nov-2019 06:33:29 UTC] PHP Stack trace:
+[25-Nov-2019 06:33:29 UTC] PHP   1. {main}() /workspace/wordpress/public_html/index.php:0
+[25-Nov-2019 06:33:29 UTC] PHP   2. require() /workspace/wordpress/public_html/index.php:17
+[25-Nov-2019 06:33:29 UTC] PHP   3. require_once() /workspace/wordpress/public_html/wp-blog-header.php:19
+[25-Nov-2019 06:33:29 UTC] PHP   4. include() /workspace/wordpress/public_html/wp-includes/template-loader.php:98
+[25-Nov-2019 06:33:29 UTC] PHP   5. get_header() /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/index.php:1
+[25-Nov-2019 06:33:29 UTC] PHP   6. locate_template() /workspace/wordpress/public_html/wp-includes/general-template.php:41
+[25-Nov-2019 06:33:29 UTC] PHP   7. load_template() /workspace/wordpress/public_html/wp-includes/template.php:671
+[25-Nov-2019 06:33:29 UTC] PHP   8. require_once() /workspace/wordpress/public_html/wp-includes/template.php:722
+[25-Nov-2019 06:33:31 UTC] PHP Notice:  Undefined variable: title_tag_start in /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/header.php on line 17
+[25-Nov-2019 06:33:31 UTC] PHP Stack trace:
+[25-Nov-2019 06:33:31 UTC] PHP   1. {main}() /workspace/wordpress/public_html/index.php:0
+[25-Nov-2019 06:33:31 UTC] PHP   2. require() /workspace/wordpress/public_html/index.php:17
+[25-Nov-2019 06:33:31 UTC] PHP   3. require_once() /workspace/wordpress/public_html/wp-blog-header.php:19
+[25-Nov-2019 06:33:31 UTC] PHP   4. include() /workspace/wordpress/public_html/wp-includes/template-loader.php:98
+[25-Nov-2019 06:33:31 UTC] PHP   5. get_header() /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/index.php:1
+[25-Nov-2019 06:33:31 UTC] PHP   6. locate_template() /workspace/wordpress/public_html/wp-includes/general-template.php:41
+[25-Nov-2019 06:33:31 UTC] PHP   7. load_template() /workspace/wordpress/public_html/wp-includes/template.php:671
+[25-Nov-2019 06:33:31 UTC] PHP   8. require_once() /workspace/wordpress/public_html/wp-includes/template.php:722
+[25-Nov-2019 06:33:31 UTC] PHP Notice:  Undefined variable: title_tag_end in /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/header.php on line 21
+[25-Nov-2019 06:33:31 UTC] PHP Stack trace:
+[25-Nov-2019 06:33:31 UTC] PHP   1. {main}() /workspace/wordpress/public_html/index.php:0
+[25-Nov-2019 06:33:31 UTC] PHP   2. require() /workspace/wordpress/public_html/index.php:17
+[25-Nov-2019 06:33:31 UTC] PHP   3. require_once() /workspace/wordpress/public_html/wp-blog-header.php:19
+[25-Nov-2019 06:33:31 UTC] PHP   4. include() /workspace/wordpress/public_html/wp-includes/template-loader.php:98
+[25-Nov-2019 06:33:31 UTC] PHP   5. get_header() /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/index.php:1
+[25-Nov-2019 06:33:31 UTC] PHP   6. locate_template() /workspace/wordpress/public_html/wp-includes/general-template.php:41
+[25-Nov-2019 06:33:31 UTC] PHP   7. load_template() /workspace/wordpress/public_html/wp-includes/template.php:671
+[25-Nov-2019 06:33:31 UTC] PHP   8. require_once() /workspace/wordpress/public_html/wp-includes/template.php:722
+[25-Nov-2019 06:34:15 UTC] PHP Notice:  Undefined variable: title_tag_start in /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/header.php on line 17
+[25-Nov-2019 06:34:15 UTC] PHP Stack trace:
+[25-Nov-2019 06:34:15 UTC] PHP   1. {main}() /workspace/wordpress/public_html/index.php:0
+[25-Nov-2019 06:34:15 UTC] PHP   2. require() /workspace/wordpress/public_html/index.php:17
+[25-Nov-2019 06:34:15 UTC] PHP   3. require_once() /workspace/wordpress/public_html/wp-blog-header.php:19
+[25-Nov-2019 06:34:15 UTC] PHP   4. include() /workspace/wordpress/public_html/wp-includes/template-loader.php:98
+[25-Nov-2019 06:34:15 UTC] PHP   5. get_header() /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/index.php:1
+[25-Nov-2019 06:34:15 UTC] PHP   6. locate_template() /workspace/wordpress/public_html/wp-includes/general-template.php:41
+[25-Nov-2019 06:34:15 UTC] PHP   7. load_template() /workspace/wordpress/public_html/wp-includes/template.php:671
+[25-Nov-2019 06:34:15 UTC] PHP   8. require_once() /workspace/wordpress/public_html/wp-includes/template.php:722
+[25-Nov-2019 06:34:15 UTC] PHP Notice:  Undefined variable: title_tag_end in /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/header.php on line 21
+[25-Nov-2019 06:34:15 UTC] PHP Stack trace:
+[25-Nov-2019 06:34:15 UTC] PHP   1. {main}() /workspace/wordpress/public_html/index.php:0
+[25-Nov-2019 06:34:15 UTC] PHP   2. require() /workspace/wordpress/public_html/index.php:17
+[25-Nov-2019 06:34:15 UTC] PHP   3. require_once() /workspace/wordpress/public_html/wp-blog-header.php:19
+[25-Nov-2019 06:34:15 UTC] PHP   4. include() /workspace/wordpress/public_html/wp-includes/template-loader.php:98
+[25-Nov-2019 06:34:15 UTC] PHP   5. get_header() /workspace/wordpress/public_html/wp-content/themes/leekfoo_portfolio/index.php:1
+[25-Nov-2019 06:34:15 UTC] PHP   6. locate_template() /workspace/wordpress/public_html/wp-includes/general-template.php:41
+[25-Nov-2019 06:34:15 UTC] PHP   7. load_template() /workspace/wordpress/public_html/wp-includes/template.php:671
+[25-Nov-2019 06:34:15 UTC] PHP   8. require_once() /workspace/wordpress/public_html/wp-includes/template.php:722

@@ -1,31 +1,103 @@
-@charset "utf-8";
-
+@charset "UTF-8";
 /*
 theme Name: LeekFoo's Portfolio
 Author: LeekFoo
 Description: original theme
 version： 0.0.1
 */
-
 /** Common **/
 html {
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 body {
   font-family: 'メイリオ', 'Meiryo', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans Japanese', Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   line-height: 1.4;
   margin: 0;
   padding: 0;
-  color: #333;
-}
+  color: #333; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  color: #000;
-}
+  color: #000; }
 
 img {
   max-width: 100%;
-  height: auto;
-}
+  height: auto; }
+
+.header-inner,
+.container,
+.footer-inner {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.25rem; }
+
+.container {
+  padding: 2rem 1.25rem; }
+
+.container:after {
+  display: block;
+  clear: both;
+  content: ''; }
+
+.contents {
+  float: left;
+  width: 70%;
+  margin-right: 3%; }
+  @media screen and (max-width: 768px) {
+    .contents {
+      float: none;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 1.5rem; } }
+
+.sidebar {
+  float: left;
+  width: 27%; }
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      float: none;
+      width: 100%;
+      margin-right: 0; } }
+
+.site-title-wrap {
+  text-align: left; }
+
+.site-title a {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  color: #000; }
+
+.header-inner {
+  position: relative; }
+
+.navbutton {
+  display: none; }
+  @media screen and (max-width: 768px) {
+    .navbutton {
+      display: inline-block; } }
+
+.header-nav-wrap {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-left: 230px;
+  transform: translateY(-50%); }
+
+.header-nav li {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 1rem; }
+
+.header-nav li a {
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  color: #000; }
+
+.header-nav li a:hover {
+  opacity: .6; }
