@@ -6,7 +6,8 @@
 content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/reset.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"><!--font-awesomeのスタイルシートの呼び出し-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css" integrity="sha256-OksDpsEotGZHyoFCHRsdsld3UaZrCcE2d8jXU8rBjHo=" crossorigin="anonymous" />
 
 <?php wp_head(); ?>
 </head>

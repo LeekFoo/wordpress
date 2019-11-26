@@ -21,6 +21,7 @@ $breakpoints: (
 /** Common **/
 html {
   font-size: 16px;
+  min-height: 100%;
 }
 
 body {
@@ -34,6 +35,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    opacity: .6;
 }
 
 img {
@@ -103,8 +113,21 @@ img {
 .navbutton {
   display: none;
   @include mq() {
-      display: inline-block;
+        font-size: 2rem;
+        position: absolute;
+        z-index: 999;
+        top: 50%;
+        right: 1.25rem;
+        display: block;
+        cursor: pointer;
+        transform: translateY(-50%);
+        border: 0;
+        background-color: transparent;
   }
+}
+
+.navbutton:focus {
+    outline: 0;
 }
 
 .header-nav-wrap {
@@ -113,12 +136,27 @@ img {
   right: 0;
   margin-left: 230px;
   transform: translateY(-50%);
+  @include mq() {
+    display: none;
+    z-index: 999;
+    top: 75px;
+    right: auto;
+    left: 0;
+    width: 100%;
+    margin-left: 0;
+    transform: none;
+    background-color: #03162f;
+  }
 }
 
 .header-nav li {
   font-size: 1rem;
   display: inline-block;
   margin-right: 1rem;
+  @include mq() {
+      display: block;
+      margin-right: 0;
+  }
 }
  
 .header-nav li a {
@@ -126,8 +164,46 @@ img {
   display: block;
   text-decoration: none;
   color: #000;
+  @include mq() {
+      position: relative;
+      padding: .8rem 1.25rem;
+      color: #fff;
+  }
 }
  
 .header-nav li a:hover {
-  opacity: .6;
+    opacity: .6;
+}
+
+.footer-inner {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-nav-wrap .social-link {
+    padding: 2rem 1rem;
+}
+
+.footer-nav-wrap .social-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-inner .copyright {
+    text-align: center;
+}
+
+@include mq() {
+    .header-nav li a:after {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        position: absolute;
+        top: 50%;
+        right: 1.25rem;
+        display: block;
+        content: '\f105';
+        transform: translateY(-50%);
+    }
 }
