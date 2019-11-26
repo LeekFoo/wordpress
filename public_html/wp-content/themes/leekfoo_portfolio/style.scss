@@ -209,12 +209,16 @@ img {
     display: inline-block;
     font-size: .8rem;
     margin-bottom: .5rem;
+    @include mq() {
+        margin-bottom: 0;
+    }
 }
 
 .article-list .img-wrap {
     position: relative;
     float: left;
     margin-right: 2rem;
+    line-height: 1;
 }
 
 .article-list .img-wrap img {
@@ -239,6 +243,51 @@ img {
   content: '';
 }
 
+.pagination {
+  margin: 2rem 0;
+  text-align: center;
+}
+ 
+.pagination ul {
+  font-size: 0;
+}
+ 
+.pagination ul li {
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: .5rem;
+}
+ 
+.pagination ul li:last-child {
+  border: 0;
+}
+ 
+.pagination ul li a,
+.pagination .current {
+  display: block;
+  padding: .5rem .8rem;
+  border: 1px solid #ccc;
+}
+ 
+.pagination ul li .prev,
+.pagination ul li .next {
+  border: 0;
+}
+ 
+.pagination ul li a {
+  text-decoration: none;
+  color: #333;
+}
+ 
+.pagination ul li a:hover {
+  opacity: .6;
+}
+ 
+.pagination .current {
+  color: #fff;
+  background-color: #03162f;
+}
+
 @include mq() {
     .header-nav li a:after {
         font-family: 'Font Awesome 5 Free';
@@ -249,5 +298,9 @@ img {
         display: block;
         content: '\f105';
         transform: translateY(-50%);
+    }
+
+    .article-list .text p {
+        display: none;
     }
 }
