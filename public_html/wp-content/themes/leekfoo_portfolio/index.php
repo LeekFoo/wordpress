@@ -149,7 +149,7 @@
                     <h3 class="center-align">Profile</h3>
                     <div class="about_profile row">
                         <div id="profile_image" class="center-align col s12 m4">
-                            <img class="responsive-img circle" alt="プロフィール画像" src="img/profile.png">
+                            <img class="responsive-img circle" alt="プロフィール画像" src="https://leekfoo.github.io/portfolio/img/profile.png">
                         </div>
                         <div class="col s12 m8 mt20">
                             LeekFooと申します。<br>
@@ -159,14 +159,6 @@
                         </div>
                     </div>
                 </div>
-<!--
-                <div id="profile_like">
-                    <div class="row">
-                        <div class="likes col s6">aaaa</div>
-                        <div class="likes col s6">aaaa</div>
-                    </div>
-                </div>
--->
 			</div>
 		</div>
 
@@ -174,12 +166,7 @@
 			<div class="container">
 				<h3 class="center-align">制作物</h3>
                 <div class="row">
-					<!-- <div class="portfolio_site col s12 m4">
-                        <div class="site_image center-align"><img class="responsive-img modal-trigger" data-target="product_1" src="img/kari.jpg"></div>
-                        <div class="portfolio_site_about">
-                            テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                        </div>
-					</div> -->
+                <?php // TODO 制作物タグが付いてい投稿のみを表示するようにする ?>
                     <div class="col s12 m4 offset-m4">
                         <div class="card hoverable modal-trigger" data-target="product_1">
                             <div class="card-image">
@@ -188,22 +175,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col s12 m4">
-                        <div class="card hoverable">
-                            <div class="card-image">
-                                <img src="img/kari.jpg" />
-                                <span class="card-title">Card Title</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m4">
-                        <div class="card hoverable">
-                            <div class="card-image">
-                                <img src="img/kari.jpg" />
-                                <span class="card-title">Card Title</span>
-                            </div>
-                        </div>
-                    </div> -->
 				</div>
 			</div>
 		</div>
